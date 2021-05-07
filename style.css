@@ -1,0 +1,21 @@
+body {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#canvas__form {
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas__form span,
+input,
+button {
+    margin: 0.5rem;
+}
